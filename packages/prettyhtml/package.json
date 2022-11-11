@@ -1,0 +1,22 @@
+{
+	"name": "@volar-plugins/prettyhtml",
+	"version": "1.0.3",
+	"main": "out/index.js",
+	"license": "MIT",
+	"files": [
+		"out/**/*.js",
+		"out/**/*.d.ts"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/johnsoncodehk/volar-plugins.git",
+		"directory": "packages/prettyhtml"
+	},
+	"scripts": {
+		"build": "tsc",
+		"prepublishOnly": "pnpm build"
+	},
+	"dependencies": {
+		"@starptech/prettyhtml": "^0.10.0"
+	}
+}

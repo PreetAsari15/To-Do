@@ -1,0 +1,17 @@
+{
+	"include": [],
+	"references": [
+		{
+			"path": "packages/prettier/tsconfig.build.json"
+		},
+		{
+			"path": "packages/prettyhtml/tsconfig.build.json"
+		},
+		{
+			"path": "packages/sass-formatter/tsconfig.build.json"
+		},
+		{
+			"path": "packages/vetur/tsconfig.build.json"
+		},
+	]
+}

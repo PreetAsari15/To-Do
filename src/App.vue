@@ -57,21 +57,21 @@ onMounted(() => {
   <main class="app">
     <section class="greeting">
       <h2 class="title">
-        What's up, <input type="text" placeholder="Name here" v-model="name" />
+        Hello! <input type="text" placeholder="Please enter your name" v-model="name" />
       </h2>
     </section>
 
     <section class="create-todo">
-      <h3>Create a TODO</h3>
+      <h3>Create To-Do list</h3>
       <form @submit.prevent="addTodo">
-        <h4>What's on your todo list?</h4>
+        <h4>What's on your list today?</h4>
         <input
           type="text"
-          placeholder="e.g.make a video"
+          placeholder="e.g. shop grocery this weekend"
           v-model="input_content"
         />
 
-        <h4>Pick a category</h4>
+        <h4>Choose a category</h4>
 
         <div class="options">
           <label>
@@ -102,7 +102,7 @@ onMounted(() => {
     </section>
 
     <section class="todo-list">
-      <h3>TODO LIST</h3>
+      <h3 v-if="name">{{ name }}'s List</h3>
       <div class="list">
         <div
           v-for="todo of todos_asc" :key="todo"

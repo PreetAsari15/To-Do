@@ -5,3 +5,14 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 ## Recommended IDE Setup
 
 - [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+
+# volar-plugins
+
+> Extra plugins for [Volar](https://github.com/johnsoncodehk/volar).
+
+## Packages
+
+- [prettier](https://github.com/johnsoncodehk/volar-plugins/tree/master/packages/prettier)
+- [prettyhtml](https://github.com/johnsoncodehk/volar-plugins/tree/master/packages/prettyhtml)
+- [sass-formatter](https://github.com/johnsoncodehk/volar-plugins/tree/master/packages/sass-formatter)
+- [vetur](https://github.com/johnsoncodehk/volar-plugins/tree/master/packages/vetur)
